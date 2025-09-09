@@ -43,7 +43,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: CBGN Upptime Monitoring
   introTitle: "Checking CBGN endpoints every 15 minutes."
-  introMessage: This uses [GitHub repository](https://github.com/upptime/upptime).
+  introMessage: This uses [Upptime](https://github.com/upptime/upptime) and Github Actions.
   navbar:
     - title: Status
       href: https://sahal.github.io/cbgn-uptime/
