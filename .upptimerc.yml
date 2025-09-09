@@ -1,6 +1,9 @@
-# Change these first 
+# Change these first
 owner: sahal # Your GitHub organization or username, where this repository lives
 repo: cbgn-uptime # The name of this repository
+
+assignees:
+  - sahal
 
 delay: 2300
 
@@ -18,7 +21,7 @@ sites:
     __dangerous__body_down_if_text_missing: 'ryan.ns.cloudflare.com.'
   - name: API Token Test # This is a test to see if the API token is still valid :x
     url: $APIPROVIDERURL_1
-    headers: 
+    headers:
       - "Authorization: Bearer $APITOKEN"
       - "Content-Type: application/json"
       - "X-Requested-With: XMLHttpRequest"
@@ -27,14 +30,14 @@ sites:
     __dangerous__body_down_if_text_missing: '2025-09-08 Alerting'
   - name: API Active Test # This is a test to see if the API is "active"
     url: $APIPROVIDERURL_2
-    headers: 
+    headers:
       - "Authorization: Bearer $APITOKEN"
       - "Content-Type: application/json"
       - "X-Requested-With: XMLHttpRequest"
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: $APIMATCH
-      
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
