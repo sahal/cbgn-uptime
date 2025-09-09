@@ -1,27 +1,27 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: sahal # Your GitHub organization or username, where this repository lives
+repo: cbgn-uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
+  - name: Cloudflare DNS Monitoring (via Google) - Addilyn
+    url: https://dns.google/resolve?name=bikegridnow.org&type=NS
+    __dangerous__body_down_if_text_missing: 'addilyn.ns.cloudflare.com.'
+  - name: Cloudflare DNS Monitoring (via Google) - Ryan
+    url: https://dns.google/resolve?name=bikegridnow.org&type=NS
+    __dangerous__body_down_if_text_missing: 'ryan.ns.cloudflare.com.'
+  - name: Naked Domain
+    url: https://bikegridnow.org
+    expectedStatusCodes:
+      - 200
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  #cname: demo.upptime.js.org
+  baseUrl: /cbgn-uptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
@@ -34,3 +34,14 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+workflowSchedule:
+  graphs: "21 0 * * *"
+  responseTime: "22 23 * * *"
+  staticSite: "23 1 * * *"
+  summary: "24 0 * * *"
+  updateTemplate: "25 0 * * *"
+  updates: "26 3 * * *"
+  uptime: "*/15 * * * *"
+
+user-agent: sahal
