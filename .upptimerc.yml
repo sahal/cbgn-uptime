@@ -2,6 +2,8 @@
 owner: sahal # Your GitHub organization or username, where this repository lives
 repo: cbgn-uptime # The name of this repository
 
+delay: 2300
+
 sites:
   - name: Cloudflare DNS Monitoring (via Google) - Addilyn # This is a test to see if the DNS has been modified. Big problem, if so.
     url: https://dns.google/resolve?name=bikegridnow.org&type=NS
@@ -14,8 +16,25 @@ sites:
     __dangerous__body_down_if_text_missing: '10% of Chicago streets prioritized for pedestrians and cyclists, created by traffic calming infrastructure and a lower speed limit to keep everyone safe.'
     expectedStatusCodes:
       - 200
-
-
+  - name: API Token Test # This is a test to see if the API token is still valid :x
+    url: $APIPROVIDERURL_1
+    headers: 
+      - "Authorization: Bearer $APITOKEN"
+      - "Content-Type: application/json"
+      - "X-Requested-With: XMLHttpRequest"
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: '2025-09-08 Alerting'
+  - name: API Active Test # This is a test to see if the API token is still valid :x
+    url: $APIPROVIDERURL_2
+    headers: 
+      - "Authorization: Bearer $APITOKEN"
+      - "Content-Type: application/json"
+      - "X-Requested-With: XMLHttpRequest"
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: $APIMATCH
+      
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
