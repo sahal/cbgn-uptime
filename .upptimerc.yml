@@ -5,17 +5,17 @@ repo: cbgn-uptime # The name of this repository
 delay: 2300
 
 sites:
+  - name: Naked Domain
+    url: https://bikegridnow.org
+    __dangerous__body_down_if_text_missing: '10% of Chicago streets prioritized for pedestrians and cyclists, created by traffic calming infrastructure and a lower speed limit to keep everyone safe.'
+    expectedStatusCodes:
+      - 200
   - name: Cloudflare DNS Monitoring (via Google) - Addilyn # This is a test to see if the DNS has been modified. Big problem, if so.
     url: https://dns.google/resolve?name=bikegridnow.org&type=NS
     __dangerous__body_down_if_text_missing: 'addilyn.ns.cloudflare.com.'
   - name: Cloudflare DNS Monitoring (via Google) - Ryan
     url: https://dns.google/resolve?name=bikegridnow.org&type=NS  # This is a test to see if the DNS has been modified. Big problem, if so.
     __dangerous__body_down_if_text_missing: 'ryan.ns.cloudflare.com.'
-  - name: Naked Domain
-    url: https://bikegridnow.org
-    __dangerous__body_down_if_text_missing: '10% of Chicago streets prioritized for pedestrians and cyclists, created by traffic calming infrastructure and a lower speed limit to keep everyone safe.'
-    expectedStatusCodes:
-      - 200
   - name: API Token Test # This is a test to see if the API token is still valid :x
     url: $APIPROVIDERURL_1
     headers: 
@@ -25,7 +25,7 @@ sites:
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: '2025-09-08 Alerting'
-  - name: API Active Test # This is a test to see if the API token is still valid :x
+  - name: API Active Test # This is a test to see if the API is "active"
     url: $APIPROVIDERURL_2
     headers: 
       - "Authorization: Bearer $APITOKEN"
