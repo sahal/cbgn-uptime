@@ -23,7 +23,7 @@ sites:
       - "Content-Type: application/json"
       - "X-Requested-With: XMLHttpRequest"
     expectedStatusCodes:
-      - 200
+      - 500
     __dangerous__body_down_if_text_missing: '2025-09-08 Alerting'
   - name: API Active Test # This is a test to see if the API is "active"
     url: $APIPROVIDERURL_2
@@ -33,7 +33,7 @@ sites:
       - "X-Requested-With: XMLHttpRequest"
     expectedStatusCodes:
       - 200
-    __dangerous__body_down_if_text_missing: $APIMATCH
+    __dangerous__body_down_if_text_missing: TEST_FAILURE
       
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
