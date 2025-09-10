@@ -4,6 +4,7 @@ repo: cbgn-uptime # The name of this repository
 
 assignees:
   - sahal
+  - nikhunder
 
 delay: 2300
 
