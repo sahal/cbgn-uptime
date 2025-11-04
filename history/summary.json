@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 403,
-    "timeDay": 476,
-    "timeWeek": 387,
-    "timeMonth": 380,
-    "timeYear": 403,
+    "time": 400,
+    "timeDay": 251,
+    "timeWeek": 348,
+    "timeMonth": 378,
+    "timeYear": 400,
     "dailyMinutesDown": {
       "2025-10-01": 18
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 116,
-    "timeDay": 176,
-    "timeWeek": 108,
-    "timeMonth": 113,
-    "timeYear": 116,
+    "time": 114,
+    "timeDay": 54,
+    "timeWeek": 110,
+    "timeMonth": 110,
+    "timeYear": 114,
     "dailyMinutesDown": {}
   },
   {
@@ -43,16 +43,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/dns.google.ico",
     "slug": "cloudflare-dns-monitoring-via-google-ryan",
     "status": "up",
-    "uptime": "99.95%",
+    "uptime": "99.96%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.64%",
     "uptimeMonth": "99.92%",
-    "uptimeYear": "99.95%",
-    "time": 111,
-    "timeDay": 27,
+    "uptimeYear": "99.96%",
+    "time": 109,
+    "timeDay": 8,
     "timeWeek": 574,
-    "timeMonth": 178,
-    "timeYear": 111,
+    "timeMonth": 176,
+    "timeYear": 109,
     "dailyMinutesDown": {
       "2025-10-31": 36
     }
@@ -68,11 +68,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 710,
-    "timeDay": 694,
+    "time": 707,
+    "timeDay": 525,
     "timeWeek": 596,
-    "timeMonth": 746,
-    "timeYear": 710,
+    "timeMonth": 613,
+    "timeYear": 707,
     "dailyMinutesDown": {
       "2025-09-09": 5
     }
@@ -89,8 +89,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 176,
-    "timeDay": 195,
-    "timeWeek": 184,
+    "timeDay": 147,
+    "timeWeek": 175,
     "timeMonth": 177,
     "timeYear": 176,
     "dailyMinutesDown": {
