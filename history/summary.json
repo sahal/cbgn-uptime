@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/bikegridnow.org.ico",
     "slug": "naked-domain",
     "status": "up",
-    "uptime": "99.89%",
+    "uptime": "99.90%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.77%",
-    "uptimeYear": "99.89%",
-    "time": 391,
-    "timeDay": 228,
-    "timeWeek": 413,
-    "timeMonth": 365,
-    "timeYear": 391,
+    "uptimeYear": "99.90%",
+    "time": 393,
+    "timeDay": 552,
+    "timeWeek": 414,
+    "timeMonth": 376,
+    "timeYear": 393,
     "dailyMinutesDown": {
       "2025-11-18": 101,
       "2025-10-01": 18
@@ -31,11 +31,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 128,
-    "timeDay": 52,
-    "timeWeek": 144,
-    "timeMonth": 143,
-    "timeYear": 128,
+    "time": 127,
+    "timeDay": 108,
+    "timeWeek": 152,
+    "timeMonth": 144,
+    "timeYear": 127,
     "dailyMinutesDown": {}
   },
   {
@@ -49,11 +49,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.97%",
-    "time": 88,
-    "timeDay": 15,
-    "timeWeek": 25,
+    "time": 87,
+    "timeDay": 18,
+    "timeWeek": 26,
     "timeMonth": 179,
-    "timeYear": 88,
+    "timeYear": 87,
     "dailyMinutesDown": {
       "2025-10-31": 36
     }
@@ -69,11 +69,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 689,
-    "timeDay": 414,
-    "timeWeek": 649,
-    "timeMonth": 621,
-    "timeYear": 689,
+    "time": 690,
+    "timeDay": 722,
+    "timeWeek": 635,
+    "timeMonth": 630,
+    "timeYear": 690,
     "dailyMinutesDown": {
       "2025-09-09": 5
     }
@@ -90,9 +90,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 178,
-    "timeDay": 159,
-    "timeWeek": 188,
-    "timeMonth": 181,
+    "timeDay": 210,
+    "timeWeek": 190,
+    "timeMonth": 183,
     "timeYear": 178,
     "dailyMinutesDown": {
       "2025-09-09": 14
