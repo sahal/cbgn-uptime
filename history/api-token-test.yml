@@ -1,7 +1,7 @@
 url: $APIPROVIDERURL_1
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-01-22T07:47:24.725Z
+status: up
+code: 200
+responseTime: 365
+lastUpdated: 2026-01-22T07:58:19.045Z
 startTime: 2025-09-09T01:06:02.084Z
 generator: Upptime <https://github.com/upptime/upptime>
