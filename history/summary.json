@@ -27,37 +27,40 @@
     "url": "https://dns.google/resolve?name=bikegridnow.org&type=NS",
     "icon": "https://icons.duckduckgo.com/ip3/dns.google.ico",
     "slug": "cloudflare-dns-monitoring-via-google-addilyn",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 123,
-    "timeDay": 29,
-    "timeWeek": 52,
-    "timeMonth": 80,
-    "timeYear": 123,
-    "dailyMinutesDown": {}
+    "time": 122,
+    "timeDay": 27,
+    "timeWeek": 49,
+    "timeMonth": 78,
+    "timeYear": 122,
+    "dailyMinutesDown": {
+      "2026-06-05": 0
+    }
   },
   {
     "name": "Cloudflare DNS Monitoring (via Google) - Ryan",
     "url": "https://dns.google/resolve?name=bikegridnow.org&type=NS",
     "icon": "https://icons.duckduckgo.com/ip3/dns.google.ico",
     "slug": "cloudflare-dns-monitoring-via-google-ryan",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 48,
     "timeDay": 30,
-    "timeWeek": 52,
+    "timeWeek": 49,
     "timeMonth": 48,
     "timeYear": 48,
     "dailyMinutesDown": {
-      "2025-10-31": 36
+      "2025-10-31": 36,
+      "2026-06-05": 0
     }
   },
   {
