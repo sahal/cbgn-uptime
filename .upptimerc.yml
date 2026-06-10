@@ -16,10 +16,10 @@ sites:
       - 200
   - name: Cloudflare DNS Monitoring (via Google) - Addilyn # This is a test to see if the DNS has been modified. Big problem, if so.
     url: https://dns.google/resolve?name=bikegridnow.org&type=NS
-    __dangerous__body_down_if_text_missing: 'addilyn.ns.cloudflare.com.'
+    __dangerous__body_down_if_text_missing: 'jobs.ns.cloudflare.com.'
   - name: Cloudflare DNS Monitoring (via Google) - Ryan
     url: https://dns.google/resolve?name=bikegridnow.org&type=NS  # This is a test to see if the DNS has been modified. Big problem, if so.
-    __dangerous__body_down_if_text_missing: 'ryan.ns.cloudflare.com.'
+    __dangerous__body_down_if_text_missing: 'cortney.ns.cloudflare.com.'
   - name: API Token Test # This is a test to see if the API token is still valid :x
     url: $APIPROVIDERURL_1
     headers:
