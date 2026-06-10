@@ -14,10 +14,10 @@ sites:
     __dangerous__body_down_if_text_missing: '10% of Chicago streets prioritized for pedestrians and cyclists, created by traffic calming infrastructure and a lower speed limit to keep everyone safe.'
     expectedStatusCodes:
       - 200
-  - name: Cloudflare DNS Monitoring (via Google) - Addilyn # This is a test to see if the DNS has been modified. Big problem, if so.
+  - name: Cloudflare DNS Monitoring (via Google) - Jobs # This is a test to see if the DNS has been modified. Big problem, if so.
     url: https://dns.google/resolve?name=bikegridnow.org&type=NS
     __dangerous__body_down_if_text_missing: 'jobs.ns.cloudflare.com.'
-  - name: Cloudflare DNS Monitoring (via Google) - Ryan
+  - name: Cloudflare DNS Monitoring (via Google) - Courtney
     url: https://dns.google/resolve?name=bikegridnow.org&type=NS  # This is a test to see if the DNS has been modified. Big problem, if so.
     __dangerous__body_down_if_text_missing: 'cortney.ns.cloudflare.com.'
   - name: API Token Test # This is a test to see if the API token is still valid :x
