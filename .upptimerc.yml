@@ -28,7 +28,7 @@ sites:
       - "X-Requested-With: XMLHttpRequest"
     expectedStatusCodes:
       - 200
-    __dangerous__body_down_if_text_missing: '2025-09-08 Alerting'
+    __dangerous__body_down_if_text_missing: '2026-09-08 Alerting'
   - name: API Active Test # This is a test to see if the API is "active"
     url: $APIPROVIDERURL_2
     headers:
