@@ -62,11 +62,11 @@
     "url": "$APIPROVIDERURL_1",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-token-test",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 603,
     "timeDay": 588,
@@ -74,7 +74,8 @@
     "timeMonth": 570,
     "timeYear": 585,
     "dailyMinutesDown": {
-      "2026-09-01": 7
+      "2026-09-01": 7,
+      "2026-10-21": 5
     }
   },
   {
@@ -82,9 +83,9 @@
     "url": "$APIPROVIDERURL_2",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-active-test",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.93%",
@@ -94,7 +95,8 @@
     "timeMonth": 448,
     "timeYear": 291,
     "dailyMinutesDown": {
-      "2026-05-11": 362
+      "2026-05-11": 362,
+      "2026-10-21": 0
     }
   }
 ]
